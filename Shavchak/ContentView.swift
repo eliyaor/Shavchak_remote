@@ -502,6 +502,7 @@ struct ContentView: View {
         }
     }
     
+    
     private func addTeam(name : String) {
         withAnimation {
             let newTeam = TeamEntity(context: viewContext)
